@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "demo-pnp-spfx-property-field-people-picker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/demoPnpSpfxPropertyFieldPeoplePicker/DemoPnpSpfxPropertyFieldPeoplePickerWebPart.js",
+          "manifest": "./src/webparts/demoPnpSpfxPropertyFieldPeoplePicker/DemoPnpSpfxPropertyFieldPeoplePickerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DemoPnpSpfxPropertyFieldPeoplePickerWebPartStrings": "lib/webparts/demoPnpSpfxPropertyFieldPeoplePicker/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
